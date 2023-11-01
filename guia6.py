@@ -31,11 +31,11 @@ def raiz_cuadrada_de(n:int):
     return math.sqrt(n)
 
 ##3
-def fahrenheit_a_celsius(n):
+def fahrenheit_a_celsius(n:int):
     return ((n-32)*5)/9
 
 ##4
-def imprimir_dos_veces(n):
+def imprimir_dos_veces(n:int):
     print(n * 2) 
 
 ##5
@@ -43,20 +43,20 @@ def es_multiplo_de(n:int,m:int):
     return n % m == 0
 
 ##6
-def es_par(n):
+def es_par(n:int):
     return es_multiplo_de(n,2)
 
 ##7
-def cantidad_de_pizzas(n,m):
+def cantidad_de_pizzas(n:int,m:int):
     return math.ceil((n*m)/8) 
 
 #ejercicio 3
 ##1
-def alguno_es_0(n,m):
+def alguno_es_0(n:int,m:int):
     return n == 0 or m == 0
 
 ##2
-def ambos_son_0(n,m):
+def ambos_son_0(n:int,m:int):
     return n == 0 and m == 0
 
 ##3
@@ -64,34 +64,34 @@ def es_nombre_largo(n:str):
     return len(n) >= 3 and len(n) <= 8
 
 ##4
-def es_bisiesto(n):
+def es_bisiesto(n:int):
     return n % 4 == 0 and not n % 100 == 0
 
 #ejercicio 4
-def peso_pino(n):
+def peso_pino(n:int):
     return min(n,300)*3 + max(0,n-300)* 2 
     
-def es_peso_util(n):
+def es_peso_util(n:int):
     return n >= 400 and n <= 1000
 
-def sirve_pino(n): 
+def sirve_pino(n:int): 
     return es_peso_util(peso_pino(n))
 
 #ejercicio 5
 ##1
-def devolver_el_doble_si_es_par(n):
+def devolver_el_doble_si_es_par(n:int):
     if n % 2 == 0:
         return 2 * n
 
 ##2
-def devolver_valor_si_es_par_sino_el_que_sigue(n):
+def devolver_valor_si_es_par_sino_el_que_sigue(n:int):
     if es_par(n):
         print(n)
     else:
         print(n+1)
 
 ##3
-def devolver_el_doble_si_es_multiplo3_el_triple_si_es_multiplo9(n):
+def devolver_el_doble_si_es_multiplo3_el_triple_si_es_multiplo9(n:int):
     if es_multiplo_de(n,3) and not es_multiplo_de(n,9):
         return n * 2
     if es_multiplo_de(n,9):
@@ -107,7 +107,7 @@ def lindo_nombre(n:str):
         print('Tu nombre tiene menos de 5 caracteres')
 
 ##5
-def elRango(n):
+def elRango(n:int):
     if n < 5:
         print('Menor a 5')
     if n >= 10 and n <= 20:
@@ -125,14 +125,14 @@ def vacaciones(s:str,n:int):
 #ejercicio 6
 ##1
 def numeros_sub_10():
-    x: int = 1
+    x:int = 1
     while x <= 10:
         print(x)
         x += 1
     
 ##2
 def pares_10_40():
-    x: int = 10
+    x:int = 10
     while x <= 40:
         print(x)
         x += 2
@@ -145,7 +145,7 @@ def eco_10():
         x += 1
 
 ##4
-def cuenta_regresiva(n):
+def cuenta_regresiva(n:int):
     while n >= 1:
         print(n)
         n -= 1
@@ -181,7 +181,7 @@ def eco_10_piola():
         print('eco')
 
 ##4
-def cuenta_regresiva_piola(n):
+def cuenta_regresiva_piola(n:int):
     for x in range(n,1-1,-1):
         print(x)
     else: 
@@ -198,12 +198,12 @@ def visita_aristoteles_piola(n:int):
 
 #ejercicio 8
 
-def rt(x: int, g: int) -> int:
+def rt(x:int, g:int) -> int:
     g = g + 1
     return x + g
 
-g: int = 0
-def ro(x: int) -> int:
+g:int = 0
+def ro(x:int) -> int:
     global g
     g = g + 1
     return x + g
