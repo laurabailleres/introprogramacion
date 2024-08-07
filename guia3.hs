@@ -1,5 +1,4 @@
 --NO FUNCIONAAAAAAAN :(
----ejercicio 3 (estanRelacionados)
 ---ejercicio 4a (prodInt)
 
 
@@ -55,16 +54,19 @@ ambosSon0 x y = x == 0 && y == 0
 
 --f
 mismoIntervalo :: Integer -> Integer -> Bool
-mismoIntervalo x y | x <= 3 && y <= 3 = True
-                   | 3 < x && x <= 7 && 3 < y && x <= 7 = True
-                   | 7 < x && 7 < y = True
-                   | otherwise = False
+mismoIntervalo x y = (x <= 3 && y <= 3) || (x > 3 && x <= 7 && y > 3 && y <= 7) || (x > 7 && y > 7)
 
+--g
+sumaDistinto :: Integer -> Integer -> Integer -> Integer
+sumaDistinto x y z | x /= y && y /= z && x /= z = x + y + z
+                   | y /= z && x == z = x + y
+                   | y == z && x /= z = x + y
+                   | x == y && y /= z = x + z
+                   | x == y && y == z = x
 
 --h
 esMultiploDe :: Integer -> Integer -> Bool
-esMultiploDe x y | mod x y == 0 = True
-                 | otherwise = False
+esMultiploDe x y = mod x y == 0
 
 --i
 digitoUnidades :: Integer -> Integer
@@ -77,10 +79,9 @@ digitoDecenas x = mod x 100
 
 
 --ejercicio 3 :)
---estanRelacionados :: Integer -> Integer -> Bool
---estanRelacionados a b 
---        | a * a + a * b * _ == 0 = True
---        | otherwise = False
+estanRelacionados :: Integer -> Integer -> Bool
+estanRelacionados x y = mod x y == 0
+
 
 
 --ejercicio 4 :O
