@@ -4,6 +4,9 @@ puede haber errores en las guías, no confíen ciegamente. en los parciales me f
 
 p.d. también pueden consultar el repo de mi amigo faus https://gitlab.com/faustomartinez/uba-algoritmos-y-estructuras-de-datos-i
 
+
+
+
 POR AHORA EXACTAS FUNCIONA, PERO LOS PROBLEMAS SIGUEN!
 GRILLA SALARIAL DOCENTE: https://aduba.org.ar/wp-content/uploads/2024/07/Instructivo-Liquidacion-Salarios-JULIO-2024.pdf
 
