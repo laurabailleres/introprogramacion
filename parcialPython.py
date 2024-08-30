@@ -1,3 +1,12 @@
+##POR AHORA EXACTAS FUNCIONA, PERO LOS PROBLEMAS SIGUEN!
+##GRILLA SALARIAL DOCENTE: https://aduba.org.ar/wp-content/uploads/2024/07/Instructivo-Liquidacion-Salarios-JULIO-2024.pdf
+
+
+
+
+
+
+
 #1) Índice de la n-ésima aparición [2 puntos]
 #Guido y Marcela son dos estudiantes de IP, nervioses con el parcial de Python. 
 #Con el objetivo de tener un rato antes del parcial para preguntarse algunas dudas 
