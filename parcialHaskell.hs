@@ -1,3 +1,12 @@
+--POR AHORA EXACTAS FUNCIONA, PERO LOS PROBLEMAS SIGUEN!
+--GRILLA SALARIAL DOCENTE: https://aduba.org.ar/wp-content/uploads/2024/07/Instructivo-Liquidacion-Salarios-JULIO-2024.pdf
+
+
+
+
+
+
+
 --1
 division :: Int -> Int -> Float
 division a b = (fromIntegral a) / (fromIntegral b) 
