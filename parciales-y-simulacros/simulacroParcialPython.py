@@ -1,10 +1,5 @@
 ##POR AHORA EXACTAS FUNCIONA, PERO LOS PROBLEMAS SIGUEN!
-##GRILLA SALARIAL DOCENTE: https://aduba.org.ar/wp-content/uploads/2024/07/Instructivo-Liquidacion-Salarios-JULIO-2024.pdf
-
-
-
-
-
+##GRILLA SALARIAL DOCENTE ABRIL 2025: https://aduba.org.ar/wp-content/uploads/2025/05/Instructivo-de-liquidacion..pdf
 
 # Ejercicio 1
 #
