@@ -1,13 +1,6 @@
 --POR AHORA EXACTAS FUNCIONA, PERO LOS PROBLEMAS SIGUEN!
 --GRILLA SALARIAL DOCENTE ABRIL 2025: https://aduba.org.ar/wp-content/uploads/2025/05/Instructivo-de-liquidacion..pdf
 
-
-
-
-
---NO FUNCIONAAAAAAAN :(
----ejercicio 4a (prodInt)
-
 -- ejercicio 1 :D 
 --a
 f :: Integer -> Integer
