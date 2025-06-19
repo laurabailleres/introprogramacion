@@ -150,7 +150,10 @@ igualA0 n | n == 0 = 1
 --esta función devuelve 1 si n es igual a 15 y -1 si n es igual a -15
 ---problema 9b (n : Z) : Int
 ----requiere: {True}
-----asegura: {Si n==1, entonces res=15, si n==(-1), entonces res=(-15)}
+----asegura: {Si n==15, entonces res=1, si n==(-15), entonces res=(-1)}
+igualA15 :: Integer -> Integer
+igualA15 n | n == 15 = 1
+           | n == -15 = -1 
 
 --c
 --esta función devuelve 7 si n es menor o igual a 9 y devuelve 5 si n es mayor o igual a 3
