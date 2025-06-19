@@ -142,6 +142,9 @@ bisiesto x | mod x 4 == 0 = True
 ---problema 9a (n : Z) : Int
 ----requiere: {True}
 ----asegura: {Si n==0, entonces res=1, en caso contrario res=0}
+igualA0 :: Integer -> Integer
+igualA0 n | n == 0 = 1
+          | otherwise = 0 
 
 --b
 --esta función devuelve 1 si n es igual a 15 y -1 si n es igual a -15
