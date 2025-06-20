@@ -71,9 +71,9 @@ esCapicua n | n < 10 = True
 --ejercicio 10
 
 --a
---f1 :: Integer -> Integer
---f1 n | n == 1 = 3
---     | otherwise = f1(n-1) + (2 ^ n)
+f1 :: Integer -> Integer
+f1 n | n == 1 = 3
+     | otherwise = f1(n-1) + (2 ^ n)
       
 --b
 --f2 :: Integer -> Integer -> Integer
