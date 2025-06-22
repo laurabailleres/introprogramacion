@@ -160,6 +160,9 @@ igualA15 n | n == 15 = 1
 ---problema 9c (n : Z) : Int
 ----requiere: {True}
 ----asegura: {Si n<=9, entonces res=7, si n>=3, entonces res=5}
+funcionC :: Integer -> Integer
+funcionC n | n < 10 = 7
+           | n > 2 = 5 
 
 --d
 --esta función calcula el promedio de x e y
