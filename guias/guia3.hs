@@ -169,6 +169,8 @@ funcionC n | n < 10 = 7
 ---problema 9d (Int -> Int : Z) : Int
 ----requiere: {True}
 ----asegura: {res = (x + y)/2}
+promedio :: Integer -> Integer
+promedio n m = (n + m) / 2
 
 --e
 --esta función calcula el promedio de los dos elementos de una dupla
